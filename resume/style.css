@@ -1,0 +1,135 @@
+html {
+  box-sizing: border-box;
+}
+    p{
+margin-bottom: 12px;
+    }
+    h1,h2,h3 {
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+ h1 {
+     font-size: 40px;
+ }
+ h2 {
+     font-size: 32px;
+     border-bottom: 1px grey;
+     margin-bottom: 8px;
+ }
+ h3 {
+     font-size: 20px;
+ }
+ header {
+   margin-bottom: 32px;
+   text-align: center;
+ }
+ footer {
+        margin-top: 64px;
+        text-align: center;
+ }
+ /*Это всё для меню */
+ nav {
+   margin: auto;
+   width: 800px;
+   height: 100px;
+ }
+a {
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+ .topnav {
+   background-color: white;
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: bolder;
+   font-size: 14px;
+   margin-top: 40px;
+ }
+ .topnav a{
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   font-size: 15px;
+ }
+ .topnav a:hover {
+     border-bottom: 2px solid #000;
+ }
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .topnav a {
+    display: none;
+  }
+  .topnav a.icon{
+    float: right;
+    margin-top: -17px;
+    display: block;
+    color:black;
+  }
+  nav{
+    width: 100%;
+    height: 100px;
+  }
+  .topnav.responsive{
+    position: relative;
+  }
+  .topnav.responsive a.icon{
+    position:absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display:block;
+    text-align: left;
+  }
+}
+ /*Здесь начинаются флексбоксы*/
+ .container {
+  max-width: 976px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-6 {
+  flex-basis: 50%;
+  /*background: rgba(255, 0, 0, 0.3);*/
+  padding-left: 8px;
+  padding-right: 8px;
+  box-sizing: border-box;
+}
+.col-1  { width: 8.33333333%;}
+.col-2  { width: 16.66666667%; }
+.col-3  { width: 25%; }
+.col-4  { width: 33.33333333%; }
+.col-5  { width: 41.66666667%; }
+.col-6  { width: 50%; }
+.col-7  { width: 58.33333333%; }
+.col-8  { width: 66.66666667%; }
+.col-9  { width: 75%;}
+.col-10 { width: 83.33333333%;}
+.col-11 { width: 91.66666667%; }
+.col-12 { width: 100%;}
+.image {
+  width: 100%;
+  max-width: 100%;
+}
+.about-me{
+  font-family: Garamond,Georgia, serif;
+  font-size: 22px;
+}
+/*.outline{
+  outline: 2px solid #000;
+  width:350px;
+  height: 200px;
+}*/
+
+/* BEGIN (write your solution here) */
+
+/* END */
