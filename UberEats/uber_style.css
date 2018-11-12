@@ -1,0 +1,122 @@
+html {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-4 {
+  flex-basis: 33.33333%;
+  /*background: rgba(255, 0, 0, 0.3);*/
+  padding-left: 8px;
+  padding-right: 8px;
+  box-sizing: border-box;
+}
+
+
+.child {
+  position: static;
+  padding-left: 900px;
+  padding-top: 0px;
+}
+
+.col-1  { width: 8.33333333%; display:flex; flex-direction: row-reverse;}
+.col-2  { width: 16.66666667%; }
+.col-3  { width: 25%; }
+.col-4  { width: 33.33333333%; }
+.col-5  { width: 41.66666667%; }
+.col-6  { width: 50%; }
+.col-7  { width: 58.33333333%; }
+.col-8  { width: 66.66666667%; }
+.col-9  { width: 75%;}
+.col-10 { width: 83.33333333%; margin-left: auto; margin-right: auto; max-width:1100px;  }
+.col-11 { width: 91.66666667%; }
+.col-12 { width: 100%;}
+
+
+
+.container {
+  max-width: 976px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+header {
+  background-color: white;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  margin-left:0px;
+}
+
+.place {
+  text-align:left;
+  font-size: 16px;
+  font-family :Arial, Helvetica;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.note {
+  text-align:left;
+  font-size: 14px;
+  font-family :Helvetica;
+  line-height: 1.7;
+}
+
+.Restaurant {
+  font-family :Arial, Helvetica;
+  font-weight: bold;
+  /*top: 20px;*/
+}
+
+form {
+  position: relative;
+  width: auto;
+  padding-left: auto;
+  padding-right: auto;
+  background: white;
+  border-bottom: 2px solid #696969;
+}
+input, button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+input {
+  width: 100%;
+  height: 42px;
+  padding-left: 15px;
+}
+
+.downpage {
+  background-color: black;
+  color: white;
+}
+
+.Uber_black {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  width: auto;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.border {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.pictures {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
