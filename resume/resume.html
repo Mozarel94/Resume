@@ -2,21 +2,26 @@
 <!DOCTYPE html> <!-- Объявление формата документа -->
 <html>
 <head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <link rel="stylesheet" href="style.css" type="text/css"/>
+  <link rel="stylesheet" href="normalize.css/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <script src="test.js"></script>
   <meta charset="UTF-8"> <!-- Определяем кодировку символов документа -->
   <title>Дмитрий Зуйков</title> <!-- Задаем заголовок документа -->
 </head>
 <body>
-  <div class="container">
-    <header>
+
+      <div class="hat">
+        <header>
       <h1>
         Дмитрий Зуйков
       </h1>
       <h3>
         ВЭБ-РАЗРАБОТЧИК
       </h3>
+    </div>
+    <div class="container">
 <nav>
       <div class="topnav" id="myTopnav">
         <a href="#experience">Опыт работы</a>
@@ -25,6 +30,15 @@
         <a href="#another-skills">Другие навыки и увлечения</a>
         <a id="menu" href="#" class="icon">&#9776;</a>
       </div>
+      <script type="text/javascript">
+$(function(){
+        $("a[href^='#']").click(function(){
+                var _href = $(this).attr("href");
+                $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+                return false;
+        });
+});
+</script>
 </nav>
     </header>
 
@@ -61,7 +75,7 @@
            выступал с докладами на Научно-Технических Советах предприятия,
             проводил стыковку аналоговой и цифровой частей радиолокационного
              оборудования.</p>
-      
+
 
     </ul>
     <div id="education"></div><h2>Образование</h2>
