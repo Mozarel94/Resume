@@ -1,6 +1,9 @@
 html {
   box-sizing: border-box;
 }
+body {
+  background-color:#F5F5F5;
+}
     p{
 margin-bottom: 12px;
     }
@@ -27,7 +30,8 @@ margin-bottom: 12px;
         margin-top: 64px;
         text-align: center;
  }
- /*Это всё для меню */
+
+ /*Это всё для меню*/
  nav {
    margin: auto;
    width: 800px;
@@ -41,7 +45,7 @@ li {
   list-style: none;
 }
  .topnav {
-   background-color: white;
+   background-color: #F5F5F5;
    font-family: 'Ubuntu', sans-serif;
    font-weight: bolder;
    font-size: 14px;
