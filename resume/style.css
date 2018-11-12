@@ -120,10 +120,13 @@ li {
 .col-10 { width: 83.33333333%;}
 .col-11 { width: 91.66666667%; }
 .col-12 { width: 100%;}
+/* Работа с изображениями */
 .image {
   width: 100%;
   max-width: 100%;
 }
+
+
 .about-me{
   font-family: Garamond,Georgia, serif;
   font-size: 18px;
